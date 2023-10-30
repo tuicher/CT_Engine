@@ -136,14 +136,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CTEngine.cpp" />
+    <ClCompile Include="CTE_Device.cpp" />
     <ClCompile Include="CTE_FileManager.cpp" />
+    <ClCompile Include="CTE_Pipeline.cpp" />
+    <ClCompile Include="CTE_SwapChain.cpp" />
     <ClCompile Include="CTE_Window.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CTEngine.hpp" />
-    <ClInclude Include="CTE_FileManager.hpp" />
-    <ClInclude Include="CTE_Window.hpp" />
+    <ClInclude Include="CTEngine.h" />
+    <ClInclude Include="CTE_Device.h" />
+    <ClInclude Include="CTE_FileManager.h" />
+    <ClInclude Include="CTE_Pipeline.h" />
+    <ClInclude Include="CTE_Window.h" />
+    <ClInclude Include="CTE_SwapChain.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

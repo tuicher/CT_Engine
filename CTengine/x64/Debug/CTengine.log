@@ -1,4 +1,3 @@
 ﻿  CTEngine.cpp
-  main.cpp
-  Generando código...
+C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\CTEngine.cpp(91,61): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
   CTengine.vcxproj -> C:\Users\Javie\VisualStudio Projects\CTengine\x64\Debug\CTengine.exe

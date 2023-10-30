@@ -1,16 +1,11 @@
-#include "CTE_FileManager.hpp"
+#include "CTE_FileManager.h"
 
 #include <fstream>
-#include <iostream>
 #include <stdexcept>
 #include <vector>
 
 namespace CTE
 {
-	CTE_FileManager::CTE_FileManager(const std::string& vertexShaderPath, const std::string& fragmenShaderPath)
-	{
-		createGraphicsPipeline(vertexShaderPath, fragmenShaderPath);
-	}
 
 	std::vector<char> CTE_FileManager::readFile(const std::string& fileName)
 	{
@@ -30,14 +25,5 @@ namespace CTE
 		file.close();
 
 		return buffer;
-	}
-
-	void CTE_FileManager::createGraphicsPipeline(const std::string& vertexShaderPath, const std::string& fragmenShaderPath)
-	{
-		std::vector<char> vertShader = readFile(vertexShaderPath);
-		std::vector<char> fragShader = readFile(fragmenShaderPath);
-
-		std::cout << "Vertex Shader size: " << vertShader.size() << std::endl;
-		std::cout << "Fragment Shader size: " << fragShader.size() << std::endl;
 	}
 }

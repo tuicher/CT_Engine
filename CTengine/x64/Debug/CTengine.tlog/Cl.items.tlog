@@ -1,4 +1,7 @@
 C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\CTEngine.cpp;C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\x64\Debug\CTEngine.obj
+C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\CTE_Device.cpp;C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\x64\Debug\CTE_Device.obj
 C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\CTE_FileManager.cpp;C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\x64\Debug\CTE_FileManager.obj
+C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\CTE_Pipeline.cpp;C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\x64\Debug\CTE_Pipeline.obj
+C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\CTE_SwapChain.cpp;C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\x64\Debug\CTE_SwapChain.obj
 C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\CTE_Window.cpp;C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\x64\Debug\CTE_Window.obj
 C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\main.cpp;C:\Users\Javie\VisualStudio Projects\CTengine\CTengine\x64\Debug\main.obj
